@@ -1,22 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
+<!--The project guidlines says we have to comment-->
+
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+<link rel="stylesheet" href="./style.css">
+<script  src="./script.js"></script>
+<title>Wiki Gulf</title>
+<header>
+<nav>
+<div class="header">
+  <a href="index.html" class="logo"><img src="logo.png" height="90px" width="90px" ></a>
+  <div class="header-right">
+    <a href="contact.html" >Contact</a>
+    
+  </div>
+</div>
+</nav>
+</header>
 </head>
+
 <body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: '',
-      repo: ''
-    }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+	<h1>Wiki Gulf</h1>
+
+<div>
+      <input type="text" class="searchTerm" id="myInput" onkeyup="Search()" placeholder="type a gcc counrty">
+      <ul id='myUL'>
+  <li><a href="Oman.html">Oman</a></li>
+  <li><a href="KSA.html">KSA</a></li>
+  <li><a href="UAE.html">UAE</a></li>
+  <li><a href="Qatar.html">Qatar</a></li>
+  <li><a href="Bahrain.html">Bahrain</a></li>
+
+      </ul>
+</div>
+
+<div class="distribution-map">
+    <img src="gcc.png">
+ 
+    <button class="map-point" style="top:38%;left:55%">
+        <div class="content">
+            <div class="centered-y">
+                <a href="Qatar.html"> Qatar </a>
+            </div>
+        </div>
+    </button>
+    <button class="map-point" style="top:42%;left:60%">
+        <div class="content">
+            <div class="centered-y">
+                <a href="UAE.html"> UAE </a>
+            </div>
+        </div>
+    </button>
+    <button class="map-point" style="top:50%;left:66.5%">
+        <div class="content">
+            <div class="centered-y">
+                <a href="Oman.html"> Oman </a>
+            </div>
+        </div>
+    </button>
+    <button class="map-point" style="top:25%;left:48%">
+        <div class="content">
+            <div class="centered-y">
+                <a href="Kuwait.html"> Kuwait </a>
+            </div>
+        </div>
+    </button>
+    <button class="map-point" style="top:49%;left:43%">
+        <div class="content">
+            <div class="centered-y">
+                <a href="KSA.html"> KSA </a>
+            </div>
+        </div>
+    </button>
+    <button class="map-point" style="top:35%;left:53%">
+        <div class="content">
+            <div class="centered-y">
+                <a href="Bahrain.html"> Bahrain </a>
+            </div>
+        </div>
+    </button>  
+</div>
+
+<div>
+  <iframe width="100%" height="515" src="https://www.youtube-nocookie.com/embed/3D6BU6KITO0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+
+
 </body>
+<center>
+<footer>
+
+Copyright &copy;2020 Mohammed Al-Marshudi/Ammar Al-Siyabi- All rights reserved &reg;
+</footer>
+</center>
 </html>

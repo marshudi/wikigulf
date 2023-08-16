@@ -1,6 +1,6 @@
 # WIKI Gulf
 
-This project, **WIKI Gulf**, was developed by two students as part of the college course Web Technologies (ITIS103). It is a web-based application similar to Wikipedia but dedicated to providing comprehensive information about the Gulf region.
+This project, **WIKI Gulf**, was developed by two students as part of the college course Web Technologies (ITIS103). It is a web-based application similar to Wikipedia but dedicated to providing comprehensive information about the Gulf region in 2020.
 
 ## Project Overview
 
